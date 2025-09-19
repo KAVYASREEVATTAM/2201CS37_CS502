@@ -1,5 +1,6 @@
 # 2201CS37_CS502
 House Price Prediction
+
 This assignment predicts house prices using Machine Learning techniques. The dataset is preprocessed and analyzed to build models for regression and classification.
 
 The dataset used is Housing.csv, which contains the following features:
@@ -8,13 +9,16 @@ Numerical Features: area, bedrooms, bathrooms, stories, parking, price
 
 Categorical Features: mainroad, guestroom, basement, hotwaterheating, airconditioning, prefarea, furnishingstatus
 
-Target:
+
+Target :
 
 For Linear Regression → price (continuous variable).
 
 For Logistic Regression → high_price (binary: 1 if price > median price, else 0).
 
-Methods Used
+
+Methods Used :
+
 1. Data Preprocessing
 
 Missing value check
@@ -52,54 +56,39 @@ Trained a Logistic Regression model
 Evaluated using:
 
 Accuracy
-
 Confusion Matrix
-
 Classification Report (Precision, Recall, F1-score)
 
-Results
 
-Linear Regression achieved good performance in predicting house prices.
+Results : 
 
-Covariance Analysis showed strong relationships between price and features like area, bedrooms, and bathrooms.
+- Linear Regression achieved good performance in predicting house prices.
 
-Logistic Regression successfully classified houses into high-price vs low-price with high accuracy.
+- Covariance Analysis showed strong relationships between price and features like area, bedrooms, and bathrooms.
 
-
-How to Run
-
-Clone the repository:
-
-git clone https://github.com/your-username/house-price-prediction.git
-cd house-price-prediction
+- Logistic Regression successfully classified houses into high-price vs low-price with high accuracy.
 
 
-Install dependencies:
+Install dependencies :
 
 pip install -r requirements.txt
 
 
-Run the Jupyter notebook:
+Run the Jupyter notebook :
 
-jupyter notebook Untitled15.ipynb
+jupyter notebook Assignment_1.ipynb
 
 
-Dependencies
-
+Dependencies : 
 Python 3.x
-
 pandas
-
 numpy
-
 matplotlib
-
 seaborn
-
 scikit-learn
-
 jupyter
 
-Install them via:
+
+Install them via :
 
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
