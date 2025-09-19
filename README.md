@@ -74,11 +74,6 @@ Install dependencies :
 pip install -r requirements.txt
 
 
-Run the Jupyter notebook :
-
-jupyter notebook Assignment_1.ipynb
-
-
 Dependencies : 
 Python 3.x
 pandas
